@@ -12,9 +12,9 @@
 * learning_rate： 0.01；
 
 ## 3. 运行方式
-首先从[Mnist数据库](http://yann.lecun.com/exdb/mnist/)下载数据，然后和cnn\_mnist.py放在同一文件夹下。然后在Windows对应的CMD文件路径下运行：
+首先从[Mnist数据库](http://yann.lecun.com/exdb/mnist/)下载数据，然后和nn\_mnist.py放在同一文件夹下。然后在Windows对应的CMD文件路径下运行：
 
-        python cnn_mnist.py | tee 2>&1 log.txt
+        python nn_mnist.py | tee 2>&1 log.txt
 
 注：log.txt是日志文件
 
