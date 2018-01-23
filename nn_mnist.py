@@ -149,6 +149,5 @@ def run():
     test_err = error(test_data, test_label, updated_params)
     print ('Test model accuracy %.4f' % (1 - test_err))
 
-
 if __name__ == '__main__':
     run()
