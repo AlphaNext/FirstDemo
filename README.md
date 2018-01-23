@@ -12,13 +12,17 @@
 * learning_rate： 0.01；
 
 ## 3. 运行方式
-在Windows对应的CMD文件路径下： python cnn_mnist.py | tee 2>&1 log.txt，    注：log.txt是日志文件
+首先从[Mnist数据库](http://yann.lecun.com/exdb/mnist/)下载数据，然后和cnn\_mnist.py放在同一文件夹下。然后在Windows对应的CMD文件路径下运行：
+
+        python cnn_mnist.py | tee 2>&1 log.txt
+
+注：log.txt是日志文件
 
 ## 4. 运行结果
 
 ![log info](log.png)
 
-在mnist的整个test数据集上，正确率在**97.xx%**左右。
+在mnist的整个test数据集上，正确率在 **97.xx%** 左右。
 ## 5. 参考资料
 1. [**mnist data read：** https://gist.github.com/akesling/5358964](https://gist.github.com/akesling/5358964)
 2. [**MATLAB：** https://github.com/xuzhenqi/cnn](https://github.com/xuzhenqi/cnn) 
